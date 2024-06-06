@@ -1,7 +1,8 @@
-# Predicting Stock Closing Prices at with ARIMA models
+# Comparative Analysis of ARIMA and Exponential Smoothing for Forecasting Stock Closing Price
+
 
 ## Overview
-This project aims to leverage autoregressive integrated moving average (ARIMA) models, a powerful time series forecasting technique, to accurately predict daily stock closing prices. By analyzing historical stock data and capturing intricate patterns and seasonalities, ARIMA models can provide reliable forecasts for stock closing prices. The project explores various ARIMA models, evaluates their performance using appropriate metrics, and investigates their effectiveness under different market conditions. The ultimate goal is to develop a robust predictive system that can inform investment strategies and support data-driven decision-making in the financial domain.
+This project aims to interpret and compare the predictive performance of ARIMA, ARIMAX and ARFIM with the Exponential Smoothing model in forecasting stock closing prices. This involves assessing their accuracy across various time intervals, focusing on intervals prone to skewed data, outliers, and fluctuating market conditions. Additionally, the research aims to identify the strengths and limitations of each model in capturing the complexities of financial data, aiding investors in making informed decisions.
 
 ## Table of Contents
 - [Overview](#overview)
