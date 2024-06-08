@@ -1,4 +1,4 @@
-# Comparative Analysis of ARIMA and Exponential Smoothing for Forecasting Stock Closing Price
+# Comparative Analysis of ARIMA and LSTM Models for Forecasting Stock Closing Prices
 
 
 ## Overview
