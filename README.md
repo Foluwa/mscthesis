@@ -70,5 +70,5 @@ The project is organized as follows:
 ### Results and Evaluation
 The notebook includes a detailed comparison of the ARIMA and LSTM models based on various evaluation metrics like Mean Squared Error (MSE), Mean Absolute Error (MAE), Root Mean Squared Error (RMSE) and Adjusted R-Squared. The results section highlights the strengths and weaknesses of each model in forecasting stock prices.
 
-### References
+### Contact
 You can reach me via [moronfoluwaakintola@gmail.com](mailto:moronfoluwaakintola@gmail.co)
