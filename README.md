@@ -33,7 +33,7 @@ pip install pandas numpy matplotlib seaborn statsmodels scikit-learn tensorflow 
 ```
 
 ### Dataset
-The dataset used for this project consists of historical stock prices. The data includes the date, open, high, low, close, and volume for the TESLA stock. This data was gotten from [Yahoo Finance](https://finance.yahoo.com/quote/TSLA/history/?period1=1277818200&period2=1594339200&interval=1d&filter=history&frequency=1d).
+The dataset used for this project consists of historical stock prices. The data includes the date, open, high, low, close, and volume for the TESLA stock. This data was gotten from [Yahoo Finance](https://finance.yahoo.com/quote/TSLA/history/?period1=1277818200&period2=1594339200&interval=1d&filter=history&frequency=1d) and can also be downloaded from the dataset directory.
 
 ### Project Structure
 The project is organized as follows:
