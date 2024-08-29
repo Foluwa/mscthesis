@@ -43,7 +43,7 @@ The project is organized as follows:
 
 ### How to Run
 
-1. **Open Google Colab**: Go to [Google Colab](https://colab.research.google.com/).
+1. **Open Google Colab**: Go to [Google Colab](https://colab.research.google.com/drive/1_-fuezmOwgNwPwwAgJX-pMDn5BA-HMvW).
 
 2. **Upload the Notebook**:
    - Click on "File" -> "Upload notebook".
@@ -63,12 +63,12 @@ The project is organized as follows:
 
 ### Model Descriptions
 
-- **ARIMA Model**: ARIMA is a statistical model used for time series forecasting. It combines autoregression (AR), differencing (I), and moving average (MA) to capture the dynamics of a time series.
+- **ARIMA Model**: The autoregressive integrated moving average (ARIMA) model merges autoregressive (AR) and moving average (MA) components with differencing to handle non-stationary data.
 
-- **LSTM Model**: LSTM is a type of recurrent neural network (RNN) capable of learning long-term dependencies. It is particularly useful for sequential data like time series due to its ability to retain information over time.
+- **LSTM Model**: Long-short-term memory (LSTM) is a highly developed form of recurrent neural network architecture specifically designed to model temporal sequences and long-range dependencies more effectively than traditional recurrent neural networks 
 
 ### Results and Evaluation
-The notebook includes a detailed comparison of the ARIMA and LSTM models based on various evaluation metrics like Mean Squared Error (MSE), Mean Absolute Error (MAE), and Root Mean Squared Error (RMSE). The results section highlights the strengths and weaknesses of each model in forecasting stock prices.
+The notebook includes a detailed comparison of the ARIMA and LSTM models based on various evaluation metrics like Mean Squared Error (MSE), Mean Absolute Error (MAE), Root Mean Squared Error (RMSE) and Adjusted R-Squared. The results section highlights the strengths and weaknesses of each model in forecasting stock prices.
 
 ### References
 You can reach me via [moronfoluwaakintola@gmail.com](mailto:moronfoluwaakintola@gmail.co)
