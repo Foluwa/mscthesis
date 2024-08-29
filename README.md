@@ -1,99 +1,74 @@
-# Comparative Analysis of ARIMA and LSTM Models for Forecasting Stock Closing Prices
+## Project Title: Comparative Analysis of ARIMA and LSTM Models for Forecasting Stock Closing Prices
 
+### Project Overview
+This project provides a comparative analysis of two time series forecasting models: ARIMA (AutoRegressive Integrated Moving Average) and LSTM (Long Short-Term Memory). The objective is to forecast stock closing prices and determine which model performs better under various conditions. The project was implemented using Python and Jupyter Notebook, specifically in a Google Colab environment.
 
-## Overview
-This project aims to interpret and compare the predictive performance of ARIMA, ARIMAX and ARFIM with the Exponential Smoothing model in forecasting stock closing prices. This involves assessing their accuracy across various time intervals, focusing on intervals prone to skewed data, outliers, and fluctuating market conditions. Additionally, the research aims to identify the strengths and limitations of each model in capturing the complexities of financial data, aiding investors in making informed decisions.
+### Table of Contents
+1. [Installation](#installation)
+2. [Dataset](#dataset)
+3. [Project Structure](#project-structure)
+4. [How to Run](#how-to-run)
+5. [Model Descriptions](#model-descriptions)
+6. [Results and Evaluation](#results-and-evaluation)
+7. [Contact](#contact)
 
-## Table of Contents
-- [Overview](#overview)
-- [Table of Contents](#table-of-contents)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Configuration](#configuration)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
-- [Changelog](#changelog)
-- [Acknowledgments](#acknowledgments)
-- [FAQ](#faq)
-- [References](#references)
+### Installation
+To run the code, you need to have access to Google Colab. All the necessary libraries are pre-installed in the Google Colab environment, but if you are running the code locally, you will need to install the following packages:
 
-## Installation
-Step-by-step instructions to install the necessary software and dependencies.
+- pandas
+- numpy
+- matplotlib
+- seaborn
+- statsmodels
+- sklearn
+- tensorflow
+- keras
+- yfinance 
+- pmdarima
 
-### Prerequisites
-List any prerequisites, such as software or libraries that need to be installed before setting up the project.
+You can install these packages using pip:
 
-### Steps
-1. Clone the repository:
-    ```bash
-    git clone <repository_url>
-    ```
-2. Navigate to the repository directory:
-    ```bash
-    cd <repository_directory>
-    ```
-3. Install the dependencies:
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-## Usage
-Examples of how to use the project, including code snippets and explanations.
-
-### Example
-```python
-import pandas as pd
-
-# Load the dataset
-df = pd.read_csv('SPX_v1.csv')
-
-# Display the first few rows
-df.head()
+```bash
+pip install pandas numpy matplotlib seaborn statsmodels scikit-learn tensorflow keras yfinance pmdarima
 ```
 
-## Configuration
-Details on how to configure the project, including environment variables and configuration files.
+### Dataset
+The dataset used for this project consists of historical stock prices. The data includes the date, open, high, low, close, and volume for the TESLA stock. This data was gotten from [Yahoo Finance](https://finance.yahoo.com/quote/TSLA/history/?period1=1277818200&period2=1594339200&interval=1d&filter=history&frequency=1d).
 
-### Environment Variables
-List any environment variables that need to be set.
+### Project Structure
+The project is organized as follows:
 
-### Configuration Files
-Provide details on any configuration files that need to be created or modified.
+- **MSCTHESIS.ipynb**: The main Jupyter Notebook containing all the code, analysis, and results.
+- **datasets/**: Directory containing the dataset (optional if running on Google Colab with dataset loaded directly from online sources).
 
-## Contributing
-Guidelines for contributing to the project, including how to report issues and submit pull requests.
+### How to Run
 
-### How to Contribute
-1. Fork the repository.
-2. Create a new branch:
-    ```bash
-    git checkout -b feature-branch
-    ```
-3. Make your changes and commit them:
-    ```bash
-    git commit -m "Description of changes"
-    ```
-4. Push to the branch:
-    ```bash
-    git push origin feature-branch
-    ```
-5. Open a pull request.
+1. **Open Google Colab**: Go to [Google Colab](https://colab.research.google.com/).
 
-## License
-The license under which the project is distributed.
+2. **Upload the Notebook**:
+   - Click on "File" -> "Upload notebook".
+   - Select the `MSCTHESIS.ipynb` file from your computer.
 
-## Contact
-Contact details for the project maintainers.
+3. **Run the Notebook**:
+   - After the notebook is uploaded, you can run the code cells sequentially by pressing `Shift + Enter` or clicking the "Run" button in the Colab interface.
+   - The notebook is divided into sections:
+     - The data loading and preprocessing
+     - ARIMA model implementation
+     - LSTM model implementation
+     - Comparative analysis and evaluation
+   - Each section should be run in order to reproduce the results.
 
-## Changelog
-A log of changes made to the project, including new features, bug fixes, and other updates.
+4. **View Results**:
+   - The results, including plots and performance metrics, will be displayed within the notebook cells.
 
-## Acknowledgments
-Credits to individuals or organizations that contributed to the project.
+### Model Descriptions
 
-## FAQ
-Frequently asked questions and their answers.
+- **ARIMA Model**: ARIMA is a statistical model used for time series forecasting. It combines autoregression (AR), differencing (I), and moving average (MA) to capture the dynamics of a time series.
 
-## References
-Links to relevant documentation, tutorials, and other resources.
+- **LSTM Model**: LSTM is a type of recurrent neural network (RNN) capable of learning long-term dependencies. It is particularly useful for sequential data like time series due to its ability to retain information over time.
+
+### Results and Evaluation
+The notebook includes a detailed comparison of the ARIMA and LSTM models based on various evaluation metrics like Mean Squared Error (MSE), Mean Absolute Error (MAE), and Root Mean Squared Error (RMSE). The results section highlights the strengths and weaknesses of each model in forecasting stock prices.
+
+### References
+You can reach me via [moronfoluwaakintola@gmail.com](mailto:moronfoluwaakintola@gmail.co)
